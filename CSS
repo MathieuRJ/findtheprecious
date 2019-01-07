@@ -1,0 +1,54 @@
+.image{
+  display: block;
+  width: 350px;
+}
+
+.wanted{
+  font-weight: bold;
+  font-size: 2em;
+  border: 1px grey solid;
+  border-radius: 10px;
+  background-color:#F3EFEF;
+  position:absolute;
+  z-index: 3;
+  margin: 45px 5px 5px 30px;
+  padding: 5px 0px 0px 50px;
+  width: 245px;
+  height: 80px;
+     
+ }
+
+#color{
+  color:#FF5233;
+  font-weight:bold;
+ }
+
+.name{
+  color: white;
+  font-size: 4em;
+  font-weight: normal;
+  position: absolute;
+  z-index : 2;
+  margin: 220px 0px 400px 70px; 
+ }
+
+.gandalf{
+  width: 350px;
+  height: 400px;
+  opacity: 0.5;
+}
+
+div.image:hover .gandalf{
+  opacity: 1;
+ }
+
+
+div.image:hover .wanted{
+  visibility: hidden;
+}
+
+div.image:hover .name{
+  font-size: 2em;
+  margin-top: 350px;  
+  margin-left: 130px;
+}
